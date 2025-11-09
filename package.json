@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migrate": "node scripts/migrate.js",
+    "migrate:schema": "node scripts/migrate.js --schema-only"
   },
   "dependencies": {
     "lucide-react": "^0.544.0",
